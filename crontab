@@ -1,0 +1,9 @@
+* * * * * (sleep 0 ; ~/kiosk.sh) >> /dev/null
+* * * * * (sleep 7 ; ~/kiosk.sh) >> /dev/null
+* * * * * (sleep 15 ; ~/kiosk.sh) >> /dev/null
+* * * * * (sleep 22 ; ~/kiosk.sh) >> /dev/null
+* * * * * (sleep 30 ; ~/kiosk.sh) >> /dev/null
+* * * * * (sleep 37 ; ~/kiosk.sh) >> /dev/null
+* * * * * (sleep 45 ; ~/kiosk.sh) >> /dev/null
+* * * * * (sleep 52 ; ~/kiosk.sh) >> /dev/null
+0 * * * * ~/stat.sh >> /dev/null
