@@ -2,7 +2,7 @@
 export XDG_RUNTIME_DIR=/run/user/1000
 export DISPLAY=:0.0
 
-if [ -d "$HOME/Desktop" ] ; then
+#if [ -d "$HOME/Desktop" ] ; then
 
 pkill blueman-applet
 pkill blueman-console
@@ -23,6 +23,6 @@ then
 echo "$SERVICE found. Status: ok ..."
 else
 echo "$SERVICE stopped. RESTART!"
-$CHROME -kiosk https://millenium.link &
+$CHROME --password-store=basic -kiosk https://millenium.link &
 fi
-fi
+#fi
