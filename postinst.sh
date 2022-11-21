@@ -1,5 +1,5 @@
 #!/bin/sh
-
+touch /target/home/millenium/test.txt
 wget https://raw.githubusercontent.com/far-rainbow/millenium/main/kiosk.sh -O /home/millenium/kiosk.sh
 chmod 777 /home/millenium/kiosk.sh
 
